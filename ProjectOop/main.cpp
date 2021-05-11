@@ -1660,7 +1660,7 @@ void admin()
 {
     int com;
     cout<<"1) Log in"<<endl;
-    cout<<"2) Register"<<endl;
+    //cout<<"2) Register"<<endl;
     cout<<"3) Exit"<<endl;
     do
     {
@@ -1671,9 +1671,6 @@ void admin()
         {
             case 1:
                 logInAdmin();
-                break;
-            case 2:
-                registerAdmin();
                 break;
             case 3:
                 cout<<"Exit"<<endl;
@@ -2236,10 +2233,10 @@ int main()
         }
     }while(com != 3);
 
-    for(auto m: clientiN)
-    {
-        cout<<m<<endl;
-    }
+    //for(auto m: clientiN)
+    //{
+       // cout<<m<<endl;
+    //}
 
     fstream fout;
     fout.open("masiniElectrice.txt", ios::out | ios::trunc);
