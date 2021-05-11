@@ -1,0 +1,2 @@
+tesla modelS b66ghe 200 1 70000 2 350 2 9.5 10
+tesla model3 b50agh 180 1 40000 2 350 0 
